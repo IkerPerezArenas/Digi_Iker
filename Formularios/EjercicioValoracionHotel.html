@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hotel Restaruante los Balbases reseña</title>
+    <style>
+        input[type="radio"]{appearance; "none"}
+
+        input[type="radio"]:checked+label{
+
+        }
+    </style>
+</head>
+<body>
+<form action="" method="post">
+
+    <label>Habitaciones</label>
+    <br>
+    <input type="radio" name="habitaciones" value="1" id="h1"><label for="h1">1</label>
+    <input type="radio" name="habitaciones" value="2" id="h2"><label for="h2">2</label>
+    <input type="radio" name="habitaciones" value="3" id="h3"><label for="h3">3</label>
+    <input type="radio" name="habitaciones" value="4" id="h4"><label for="h4">4</label>
+    <input type="radio" name="habitaciones" value="5" checked id="h5"><label for="h5">5</label>
+    <br>
+
+    <label>Servicio</label>
+    <br>
+    <input type="radio" name="servicio" value="1" id="s1"><label for="s1">1</label>
+    <input type="radio" name="servicio" value="2" id="s2"><label for="s2">2</label>
+    <input type="radio" name="servicio" value="3" id="s3"><label for="s3">3</label>
+    <input type="radio" name="servicio" value="4" id="s4"><label for="s4">4</label>
+    <input type="radio" name="servicio" value="5" checked id="s5"><label for="s5">5</label>
+    <br>
+
+    <label>Ubicación</label>
+    <br>
+    <input type="radio" name="ubicación" value="1" id="u1"><label for="u1">1</label>
+    <input type="radio" name="ubicación" value="2" id="u2"><label for="u2">2</label>
+    <input type="radio" name="ubicación" value="3" id="u3"><label for="u3">3</label>
+    <input type="radio" name="ubicación" value="4" id="u4"><label for="u4">4</label>
+    <input type="radio" name="ubicación" value="5" checked id="u5"><label for="u5">5</label>
+    <br>
+    <br>
+    <label>Observaciones</label>
+    <br>
+    <textarea placeholder="Deje aqui sus observaciones" name="observaciones" id="observaciones" cols="30" rows="20"></textarea>
+    <br>
+    <br>
+    <label for="fotos">Subir fotos</label>
+    <input type="file" hidden name="fotos" id="fotos">
+    <br>
+    <br>
+    <label>¿De que tipo de viaje se tartaba?</label>
+    <br>
+    <input type="radio" name="Negocios" value="Negocios" id="TV1">
+    <label for="TV1">Negocios</label>
+    <input type="radio" name="Vacaciones" value="Vacaciones" id="TV2">
+    <label for="TV2">Vacaciones</label>
+    <br>
+    <br>
+    <label>¿Con quién viajabas?</label>
+    <br>
+    <input type="radio" name="¿Con quién viajabas?" value="Familia" id="CQV1">
+    <label for="CQV1">Familia</label>
+    <input type="radio" name="¿Con quién viajabas?" value="Amigos" id="CQV2">
+    <label for="CQV2">Amigos</label>
+    <input type="radio" name="¿Con quién viajabas?" value="Pareja" id="CQV3">
+    <label for="CQV3">Pareja</label>
+    <input type="radio" name="¿Con quién viajabas?" value="Solo/a" id="CQV4">
+    <label for="CQV4">Solo/a</label>
+    <br>
+    <br>
+    <label>¿Cómo describirías el hotel?<br>(Selecciona todas las opciones pertinentes)</label>
+    <br>
+    <input type="checkbox" name="¿Cómo describirías el hotel?" value="1" id="CDH1"><label for="CDH1">De lujo</label>
+    <input type="checkbox" name="¿Cómo describirías el hotel?" value="2" id="CDH2"><label for="CDH2">Buenas vistas</label>
+    <input type="checkbox" name="¿Cómo describirías el hotel?" value="3" id="CDH3"><label for="CDH3">Romántico</label>
+    <input type="checkbox" name="¿Cómo describirías el hotel?" value="4" id="CDH4"><label for="CDH4">Tranquilo</label>
+    <input type="checkbox" name="¿Cómo describirías el hotel?" value="5" id="CDH5"><label for="CDH5">Adecuado para niños</label>
+    <input type="checkbox" name="¿Cómo describirías el hotel?" value="6" id="CDH6"><label for="CDH6">Buen precio</label>
+    <input type="checkbox" name="¿Cómo describirías el hotel?" value="7" id="CDH7"><label for="CDH7">De alta tecnología</label>
+    <br>
+    <br>
+    <label>¿Cúan cómoda era la cama?(Beta)</label>
+    <br>
+    <input type="radio" name="¿Cúan cómoda era la cama?" value="1" id="CCC1"><label for="CCC1">Muy cómoda</label>
+    <input type="radio" name="¿Cúan cómoda era la cama?" value="2" id="CCC2"><label for="CCC2">Cómoda</label>
+    <input type="radio" name="¿Cúan cómoda era la cama?" value="3" id="CCC3"><label for="CCC3">Ni cómoda ni incómoda</label>
+    <input type="radio" name="¿Cúan cómoda era la cama?"  value="4" id="CCC4"><label for="CCC4">Incómodas</label>
+    <input type="radio" name="¿Cúan cómoda era la cama?" value="5" id="CCc5"><label for="CCC5">Muy incómodas</label>
+    <br>
+    <br>
+    <button type="reset">Cancelar</button>
+    <button type="submit">Enviar</button>
+</form>
+</body>
+</html>
